@@ -4,8 +4,7 @@ You've got a copy of the yellow-pages (it's like google for old people).
 You need to write a couple of scripts that extract some data from the yellow
 pages.
 
-
-The tast is to create 4 scripts:
+Your task is to create 4 scripts:
 
 ```
 num-doctors.sh
@@ -29,7 +28,6 @@ last-5-records.sh
 # this script should find the last five records in yellow pages and print to
 # stdout
 ```
-
 
 ## Test runner
 
