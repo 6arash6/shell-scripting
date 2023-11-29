@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/bash
 
 if ! [[ -f first-engineer.sh ]]; then
     echo "missing file: first-engineer.sh"
