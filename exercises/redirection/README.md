@@ -51,3 +51,17 @@ cat tests/4.desc
 this should check the output of last-5-records.sh
 ```
 
+
+As you complete the tests, the test runner should show which ones are passing
+and which ones are failing:
+
+```
+redirection % ./test-redirection.sh                                                                    (main◆) ~/Code/tuw/datalab/dev-onboarding/shell/exercises/redirection
+test 1: passed
+test 2: out incorrect
+  what results should be found in file: tests/2.out
+  what results produced by your program: tests-out/2.out
+  compare the two using diff, cmp, or related tools to debug, e.g.:
+  prompt> diff tests/2.out tests-out/2.out
+zsh: exit 1     ./test-redirection.sh
+```
